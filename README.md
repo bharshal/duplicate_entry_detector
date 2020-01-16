@@ -10,10 +10,10 @@ The flow of the app is :
 ![alt text](https://github.com/bharshal/duplicate_entry_detector/blob/master/FLow.jpg)
 
 To test, copy the database into this folder,
-	 1) run clean_data.py,
-	 2) run download_images.py,
-	 3) run train_doc2vec_model.py or  paste final.model in this folder
-	 4) run main.py
+1) run clean_data.py,
+2) run download_images.py,
+3) run train_doc2vec_model.py or  paste final.model in this folder
+4) run main.py
 
 Result will be stored in result.txt in json format. The json dictionary has all duplicates for each unique product. 
 
